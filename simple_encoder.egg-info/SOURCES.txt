@@ -1,0 +1,10 @@
+pyproject.toml
+encoder/__init__.py
+encoder/encoder.py
+simple_encoder.egg-info/PKG-INFO
+simple_encoder.egg-info/SOURCES.txt
+simple_encoder.egg-info/dependency_links.txt
+simple_encoder.egg-info/entry_points.txt
+simple_encoder.egg-info/requires.txt
+simple_encoder.egg-info/top_level.txt
+test/test_encoder.py

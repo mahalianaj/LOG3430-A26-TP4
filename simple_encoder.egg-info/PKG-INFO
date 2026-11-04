@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: simple-encoder
+Version: 1.0.0
+Summary: Simple Unicode encoding detection and conversion tool
+Author-email: Developer <dev@example.com>
+Keywords: encoding,unicode,utf-8,utf-16,utf-32
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.11
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
