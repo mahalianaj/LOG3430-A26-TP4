@@ -72,7 +72,7 @@ def exec_convert(input_file, output_file, from_encoding: str, to_encoding: str) 
     if sys.platform == 'win32':
         from_encoding = map_to_windows_encoding(from_encoding)
         to_encoding = map_to_windows_encoding(to_encoding)
-        return subprocess.run(['powershell', '-Command',
+        return subprocess.run(['pwsh', '-Command',
                                f'Get-Content "{input_file}" -Encoding {from_encoding} | Set-Content "{output_file}" -Encoding {to_encoding}'],
                               check=True)
     else:
